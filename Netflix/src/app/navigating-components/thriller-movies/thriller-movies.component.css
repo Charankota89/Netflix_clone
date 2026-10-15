@@ -1,0 +1,17 @@
+.container{
+    display: flex;
+    overflow-x: scroll;
+}
+.poster img{ 
+        max-width: 250px;
+        border-radius: 20px;
+        margin:0px 10px;
+}
+.container::-webkit-scrollbar{
+    display:none;
+
+}
+h2{
+    text-align: center;
+    font-size: 1.2rem;
+}
