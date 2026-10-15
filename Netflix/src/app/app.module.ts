@@ -9,7 +9,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { ThrillerMoviesComponent } from './navigating-components/thriller-movies/thriller-movies.component';
 import { TvActionAndAdventureComponent } from './navigating-components/tv-action-and-adventure/tv-action-and-adventure.component';
 import { RelentlessCrimeDramasComponent } from './navigating-components/relentless-crime-dramas/relentless-crime-dramas.component';
-import { ActionThrillersComponent } from './navigating-components/action-thrillers/action-thrillers.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,9 +16,7 @@ import { ActionThrillersComponent } from './navigating-components/action-thrille
     NavigatingComponentsComponent,
     ThrillerMoviesComponent,
     TvActionAndAdventureComponent,
-    RelentlessCrimeDramasComponent,
-    ActionThrillersComponent,
-    
+    RelentlessCrimeDramasComponent
     ],
   imports: [
     BrowserModule,
